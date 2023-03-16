@@ -12,7 +12,10 @@ GET localhost:3001/readuserinput
 GET <host>/readuserinput 
 
 # Enter program to run
-user can enter [console.log("hello world")]
-// or any javascript code to run
+user can enter simple log *[console.log("hello world")]*
 
-The execution will start immediately after user press enter in the command prompt after entering the js code.
+or complex javascript code like
+
+*function print(one,two){one=one+two; console.log("new value is-->",one)} print(3,5);*
+
+**The execution will start immediately after user press enter in the command prompt after entering the js code.**
